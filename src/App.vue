@@ -11,9 +11,9 @@
           <img
             src="./assets/logo1.png"
             alt=""
-            width="70px"
-            height="70px"
-            style="margin-top: 15px; margin-left:30px"
+            width="100px"
+            height="90px"
+            style=" margin-left:30px"
           />
         </li>
 
@@ -22,7 +22,9 @@
       <button class="btn" v-on:click="wallet">Connect wallet</button>
     </nav>
     <div>
-      <img src="./assets/new.jpeg" alt="" width="100%">
+      <img src="./assets/new2.jpeg" alt="" width="100%">
+      <iframe src="https://player.vimeo.com/video/678944923" width="400" height="300"  webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
     </div>
     <div class="non">
       <h2 class="heading">
@@ -128,7 +130,7 @@
       </div>
       <footer class="foot">
         <img src="./assets/logo1.png" alt="" width="100px" height="100px">
-        <h3>Charting Wizards</h3>
+        <h3 class="heading">@NFT Wizard Club</h3>
       </footer>
       
     </div>
@@ -169,7 +171,7 @@ txHash.then((result)=>{
 })
 .catch((error)=>{
   console.log(error)
-  alert(error)
+ 
 })
          }
          else{
@@ -187,7 +189,7 @@ txHash.then((result)=>{
            const hex1=web3.utils.toHex((2000/3000) * 1e18);
         const tx = {
   from: this.account, // Required
-  to: "0x89D24A7b4cCB1b6fAA2625Fe562bDd9A23260359", // Required (for non contract deployments)
+  to: "0x8CEED88AC8C8199d7C594a0701d38360AF23355c", // Required (for non contract deployments)
   // Required
    // Optional
    // Optional
@@ -201,7 +203,7 @@ txHash.then((result)=>{
 })
 .catch((error)=>{
   console.log(error)
-  alert(error)
+  alert(error[0])
 })
          }
          else{
