@@ -243,8 +243,11 @@ const Fortmatic = window.Fortmatic;
       this.provider=providerx
       const web3= new Web3(providerx)
       const acc=web3.eth.getAccounts()
-      console.log(acc[0])
-      this.account=acc[0]
+      
+      acc.then((result)=>{
+        console.log(result[0])
+        this.account=result[0]
+      })
       const networkId = await web3.eth.net.getId();
         this.id=networkId
 
