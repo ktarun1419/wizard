@@ -1,6 +1,16 @@
 <template>
   <div id="app">
-    <nav id="menu">
+    <header class="head">
+      <img
+            src="./assets/logo1.png"
+            alt=""
+            width="100px"
+            height="90px"
+            style=" margin-left:30px;float:left;"
+          />
+          <button class="btn" v-on:click="wallet">Connect wallet</button>
+    </header>
+    <!-- <nav id="menu">
       <input
         type="checkbox"
         id="responsive-menu"
@@ -20,17 +30,18 @@
         
       </ul>
       <button class="btn" v-on:click="wallet">Connect wallet</button>
-    </nav>
+    </nav> -->
     <div>
       <img src="./assets/new2.jpeg" alt="" width="100%">
-      <iframe src="https://player.vimeo.com/video/678944923" width="400" height="300"  webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-
-    </div>
-    <div class="non">
       <h2 class="heading">
       Discover how you can become a successful NFT Trader in 30 days by
       leveraging our strategies, tools and guidance
     </h2>
+      <iframe src="https://player.vimeo.com/video/678944923" class="vid"  webkitallowfullscreen mozallowfullscreen allowfullscreen ></iframe>
+
+    </div>
+    <div class="non">
+      
     <h1 class="heading">NFT WIZARD CLUB</h1>
     <h3 class="content">
       We educate and help you make steady profit trading NFTs by giving you
@@ -100,7 +111,7 @@
     </div>
     </div>
     
-    <div>
+    
       <div class="con">
         <h1 class="heading">Premium Membership</h1>
         <h3 class="heading"> Access to Free WL Spots</h3>
@@ -110,7 +121,7 @@
         <h2 class="heading">One time payment: $1200</h2>
         <button class="btn1" v-on:click="pay">Pay</button>
       </div>
-      <div class="con">
+      <div class="con1">
         <h1 class="heading"> VIP Membership</h1>
         <h3 class="heading"> Everything in premium membership plus the following features below:</h3>
         <h4 class="heading">Whitelist Bot</h4>
@@ -119,6 +130,7 @@
         <h2 class="heading">One time payment: $2000</h2>
         <button class="btn1" v-on:click="pay1">Pay</button>
       </div>
+       
       <div>
         <h1 class="heading">Testimonial</h1>
         <img src="./assets/testimonial 1.jpeg" alt="" class="im1">
@@ -133,7 +145,7 @@
         <h3 class="heading">@NFT Wizard Club</h3>
       </footer>
       
-    </div>
+   
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u">
 
   </div>
@@ -252,7 +264,7 @@ const Fortmatic = window.Fortmatic;
       })
       const networkId = await web3.eth.net.getId();
         this.id=networkId
-
+//#04a59b
       }
       web()
     },
@@ -287,8 +299,16 @@ const Fortmatic = window.Fortmatic;
     }
   }
 }
+.head{
+  background: #8e9190;
+  color: #ffffff;
+  height: 100px;
+  padding-left: 18px;
+  border-radius: 0px;
+  border-bottom: 1px solid #000000;
+}
 #menu {
-  background: #04a59b;
+  background: #8e9190;
   color: #ffffff;
   height: 100px;
   padding-left: 18px;
@@ -429,6 +449,7 @@ const Fortmatic = window.Fortmatic;
 }
 .content{
   color: rgb(41, 38, 38);
+  font-weight: 400;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .diver {
@@ -437,7 +458,7 @@ const Fortmatic = window.Fortmatic;
   margin-right: 40px;
   margin-top: 20px;
   height: 200px;
-  background-color: #04a59b;
+  background-color: #8e9190;
   border: 1px solid white;
   border-radius: 20px;
 }
@@ -503,7 +524,18 @@ const Fortmatic = window.Fortmatic;
   width: 40%;
   height: 500px;
   padding: 0 10px;
-  background-color: #04a59b;
+  background-color:#8e9190 ;
+  border: 1px solid white;
+  border-radius: 20px;
+  display: inline-block;
+  margin-top: 100px;
+  margin-right: 50px;
+}
+.con1{
+  width: 40%;
+  height: 500px;
+  padding: 0 10px;
+  background-color: #8e9190;
   border: 1px solid white;
   border-radius: 20px;
   display: inline-block;
@@ -511,8 +543,12 @@ const Fortmatic = window.Fortmatic;
   margin-right: 50px;
 }
 .foot{
-  background-color: #04a59b;
+  background-color: #8e9190;
   height: 200px;
+}
+.vid{
+  width: 800px;
+  height: 450px;
 }
 @media screen and (max-width: 450px){
   .im1{
@@ -520,12 +556,18 @@ const Fortmatic = window.Fortmatic;
     height: auto;
   }.con{
     width: 100%;
+  }.con1{
+    width: 100%;
   }.diver{
     width: 100%;
     height: auto;
   }#app{
     width: 101%;
     margin-left: 0px;
+  }.vid{
+    width: 340px;
+    height: 240px;
+
   }
 
 
