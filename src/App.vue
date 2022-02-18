@@ -2,11 +2,11 @@
   <div id="app">
     <header class="head">
       <img
-            src="./assets/logo1.png"
+            src="./assets/logo2.png"
             alt=""
-            width="90px"
-            height="70px"
-            style=" margin-left:10px;float:left; margin-top:17px"
+            width="100px"
+            height="80px"
+            style=" margin-left:10px;float:left; margin-top:20px"
            
           />
           
@@ -34,8 +34,8 @@
       <button class="btn" v-on:click="wallet">Connect wallet</button>
     </nav> -->
     <div>
-      <img src="./assets/new2.jpeg" alt="" width="100%" v-if="w>=450">
-      <img src="./assets/new2 copy.jpeg" alt="" width="100%" v-if="w<450">
+      <img src="./assets/lol(3).jpeg" alt="" width="100%" v-if="w>=450">
+      <img src="./assets/lol3.jpeg" alt="" width="100%" v-if="w<450">
 
       <div class="modal">
         <h2 class="heading1">
@@ -476,7 +476,7 @@ const Fortmatic = window.Fortmatic;
   margin-right: 40px;
   margin-top: 20px;
   height: 200px;
-  background-color: #c7c7c7;
+  background-color: #eeeaea;
   border: 1px solid white;
   border-radius: 20px;
 }
@@ -542,7 +542,7 @@ const Fortmatic = window.Fortmatic;
   width: 40%;
   height: 500px;
   padding: 0 10px;
-  background-color:#c7c7c7 ;
+  background-color:#eeeaea ;
   border: 1px solid white;
   border-radius: 20px;
   display: inline-block;
@@ -553,7 +553,7 @@ const Fortmatic = window.Fortmatic;
   width: 40%;
   height: 500px;
   padding: 0 10px;
-  background-color: #c7c7c7;
+  background-color: #eeeaea;
   border: 1px solid white;
   border-radius: 20px;
   display: inline-block;
