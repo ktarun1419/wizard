@@ -33,10 +33,13 @@
     </nav> -->
     <div>
       <img src="./assets/new2.jpeg" alt="" width="100%">
-      <h2 class="heading">
+      <div class="modal">
+        <h2 class="heading1">
       Discover how you can become a successful NFT Trader in 30 days by
       leveraging our strategies, tools and guidance
     </h2>
+      </div>
+      </div><div>
       <iframe src="https://player.vimeo.com/video/678944923" class="vid"  webkitallowfullscreen mozallowfullscreen allowfullscreen ></iframe>
 
     </div>
@@ -300,7 +303,7 @@ const Fortmatic = window.Fortmatic;
   }
 }
 .head{
-  background: #8e9190;
+  background: #04a59b;
   color: #ffffff;
   height: 100px;
   padding-left: 18px;
@@ -447,6 +450,14 @@ const Fortmatic = window.Fortmatic;
 
   margin-top: 40px;
 }
+
+.heading1{
+  
+  color:rgb(255, 255, 255) ;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  
+  margin-top: 40px;
+}
 .content{
   color: rgb(41, 38, 38);
   font-weight: 400;
@@ -472,7 +483,7 @@ const Fortmatic = window.Fortmatic;
   font-family: 'Courier New', Courier, monospace;
   color: black;
   font-size: 15px;
-  background: white;
+  background: #ffffff;
   padding: 15px 15px 15px 15px;
   text-decoration: none;
   width: auto;
@@ -502,7 +513,7 @@ const Fortmatic = window.Fortmatic;
   font-family: "Inter var", sans-serif;
   color: black;
   font-size: 15px;
-  background: white;
+  background: #04a59b;
   padding: 10px 5px 10px 5px;
   text-decoration: none;
   width: 140px;
@@ -543,7 +554,7 @@ const Fortmatic = window.Fortmatic;
   margin-right: 50px;
 }
 .foot{
-  background-color: #8e9190;
+  background-color: #04a59b;
   height: 200px;
 }
 .vid{
