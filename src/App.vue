@@ -4,10 +4,12 @@
       <img
             src="./assets/logo1.png"
             alt=""
-            width="100px"
-            height="90px"
-            style=" margin-left:30px;float:left;"
+            width="90px"
+            height="70px"
+            style=" margin-left:10px;float:left; margin-top:17px"
+           
           />
+          
           <button class="btn" v-on:click="wallet">Connect wallet</button>
     </header>
     <!-- <nav id="menu">
@@ -32,7 +34,9 @@
       <button class="btn" v-on:click="wallet">Connect wallet</button>
     </nav> -->
     <div>
-      <img src="./assets/new2.jpeg" alt="" width="100%">
+      <img src="./assets/new2.jpeg" alt="" width="100%" v-if="w>=450">
+      <img src="./assets/new2 copy.jpeg" alt="" width="100%" v-if="w<450">
+
       <div class="modal">
         <h2 class="heading1">
       Discover how you can become a successful NFT Trader in 30 days by
@@ -145,6 +149,8 @@
       </div>
       <footer class="foot">
         <img src="./assets/logo1.png" alt="" width="100px" height="100px">
+        <h4>Join our Discord community</h4>
+        <a href="https://discord.gg/JQhv5ChcZ3"><img src="./assets/images.png" width="140px" height="50x" alt=""></a>
         <h3 class="heading">@NFT Wizard Club</h3>
       </footer>
       
@@ -162,6 +168,7 @@ export default {
       account:null,
       id:null,
       provider:null,
+      w:window.innerWidth
     }
   },
   methods:{
@@ -169,7 +176,7 @@ export default {
        if (this.account) {
          if (this.id==1) {
            const web3 = new Web3(this.provider);
-           const hex1=web3.utils.toHex((1000/3000) * 1e18);
+           const hex1=web3.utils.toHex((1200/2788) * 1e18);
         const tx = {
   from: this.account, // Required
   to: "0x89D24A7b4cCB1b6fAA2625Fe562bDd9A23260359", // Required (for non contract deployments)
@@ -201,7 +208,7 @@ txHash.then((result)=>{
        if (this.account) {
          if (this.id==1) {
            const web3 = new Web3(this.provider);
-           const hex1=web3.utils.toHex((2000/3000) * 1e18);
+           const hex1=web3.utils.toHex((2000/2788) * 1e18);
         const tx = {
   from: this.account, // Required
   to: "0x8CEED88AC8C8199d7C594a0701d38360AF23355c", // Required (for non contract deployments)
@@ -469,7 +476,7 @@ const Fortmatic = window.Fortmatic;
   margin-right: 40px;
   margin-top: 20px;
   height: 200px;
-  background-color: #8e9190;
+  background-color: #c7c7c7;
   border: 1px solid white;
   border-radius: 20px;
 }
@@ -535,7 +542,7 @@ const Fortmatic = window.Fortmatic;
   width: 40%;
   height: 500px;
   padding: 0 10px;
-  background-color:#8e9190 ;
+  background-color:#c7c7c7 ;
   border: 1px solid white;
   border-radius: 20px;
   display: inline-block;
@@ -546,7 +553,7 @@ const Fortmatic = window.Fortmatic;
   width: 40%;
   height: 500px;
   padding: 0 10px;
-  background-color: #8e9190;
+  background-color: #c7c7c7;
   border: 1px solid white;
   border-radius: 20px;
   display: inline-block;
@@ -555,7 +562,7 @@ const Fortmatic = window.Fortmatic;
 }
 .foot{
   background-color: #04a59b;
-  height: 200px;
+  height: 300px;
 }
 .vid{
   width: 800px;
@@ -573,12 +580,15 @@ const Fortmatic = window.Fortmatic;
     width: 100%;
     height: auto;
   }#app{
-    width: 101%;
+    width: 100%;
     margin-left: 0px;
   }.vid{
     width: 340px;
     height: 240px;
+    margin-top: -150px;
 
+  }.non{
+    width: 100%;
   }
 
 
