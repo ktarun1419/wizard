@@ -117,9 +117,12 @@
       </h4>
     </div>
     </div>
-    <h1 class="heading">MEMBERSHIP</h1>
+    <div>
+      <h1 class="heading">MEMBERSHIP</h1>
       <h3 class="content">There are two levels of membership in the NFT Wzrd Club and benefits you get varies depending on the membership you subscribe too.</h3>
        
+    </div>
+    
     
       <div class="con">
         <h1 class="heading">Premium Membership</h1>
@@ -467,7 +470,7 @@ const Fortmatic = window.Fortmatic;
   margin-right: 40px;
   margin-top: 20px;
   height: 200px;
-  background-color: #eeeaea;
+  background-color: #faf6f6;
   border: 1px solid white;
   border-radius: 20px;
 }
@@ -533,7 +536,7 @@ const Fortmatic = window.Fortmatic;
   width: 40%;
   height: 500px;
   padding: 0 10px;
-  background-color:#eeeaea ;
+  background-color:#faf6f6 ;
   border: 1px solid white;
   border-radius: 20px;
   display: inline-block;
@@ -544,7 +547,7 @@ const Fortmatic = window.Fortmatic;
   width: 40%;
   height: 500px;
   padding: 0 10px;
-  background-color: #eeeaea;
+  background-color: #faf6f6;
   border: 1px solid white;
   border-radius: 20px;
   display: inline-block;
@@ -567,10 +570,12 @@ const Fortmatic = window.Fortmatic;
   }.con{
     width: 97%;
     margin-right: 0px;
+     margin-top: -40px;
     
   }.con1{
     width: 97%;
     margin-right: 0px;
+    margin-top: 0px;
   }.diver{
     width: 100%;
     height: auto;
