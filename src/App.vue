@@ -35,7 +35,7 @@
     </nav> -->
     <div>
       <img src="./assets/newback.png" alt="" width="100%" v-if="w>=450">
-      <img src="./assets/newback1.png" alt="" width="100%" v-if="w<450">
+      <img src="./assets/newback2.png" alt="" width="100%" v-if="w<450">
 
       <div class="modal">
         <h2 class="heading1">
