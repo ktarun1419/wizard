@@ -34,8 +34,8 @@
       <button class="btn" v-on:click="wallet">Connect wallet</button>
     </nav> -->
     <div>
-      <img src="./assets/lol(3).jpeg" alt="" width="100%" v-if="w>=450">
-      <img src="./assets/lol4.jpeg" alt="" width="100%" v-if="w<450">
+      <img src="./assets/newback.png" alt="" width="100%" v-if="w>=450">
+      <img src="./assets/newback1.png" alt="" width="100%" v-if="w<450">
 
       <div class="modal">
         <h2 class="heading1">
@@ -62,15 +62,15 @@
     <h1 class="heading">Benefits</h1>
     <div>
       <div class="diver">
-      <h2 class="heading">• Access to Free WL spots</h2>
+      <h2 class="heading">Access to Free WL spots</h2>
       <h4 class="content">
-        You get access to whitelist spots for your favorite NFT projects for
-        free without whitelisting hassle.
+        You get access to whitelist spots of the most hyped NFT projects for free without whitelisting hassle by using our rollover system that allows every member get WL spots in top NFT projects.
+
       </h4>
     </div>
 
     <div class="diver">
-      <h2 class="heading">• Earn Wizard Token</h2>
+      <h2 class="heading">Earn Wizard Token</h2>
       <h4 class="content">
         Play games in the NFT Wzrd Club house and earn WZRD tokens. WZRD will be
         the base currency for our community.
@@ -78,7 +78,7 @@
     </div>
 
     <div class="diver">
-      <h2 class="heading">• Flipping Signals (New)</h2>
+      <h2 class="heading">Flipping Signals (New)</h2>
       <h4 class="content">
         NFT WZRD Club Members will receive pre-reveal and post-reveal buy & sell
         signal free for 3 months.
@@ -86,7 +86,7 @@
     </div>
 
     <div class="diver">
-      <h2 class="heading">• Wzrd Launchpool</h2>
+      <h2 class="heading">Wzrd Launchpool</h2>
       <h4 class="content">
         Gain early access and partake in the most promising NFT projects and
         enjoy great returns on your investment without going through the
@@ -95,14 +95,14 @@
     </div>
 
     <div class="diver">
-      <h2 class="heading">• Whitelist Bot</h2>
+      <h2 class="heading">Whitelist Bot</h2>
       <h4 class="content">
         Never miss out on any whitelist opportunity anymore. Each VIP members
         will receive the whitelist Bot. See #🤖whitelist-bot for more details.
       </h4>
     </div>
     <div class="diver">
-      <h2 class="heading">• 100K Challenge</h2>
+      <h2 class="heading">100K Challenge</h2>
       <h4 class="content">
         To build wealth Trading NFTs, you need a solid strategy and a clear
         plan. During the 100k challenge, you will master how to go from $1k to
@@ -110,14 +110,14 @@
       </h4>
     </div>
     <div class="diver">
-      <h2 class="heading">• NFT Mentorship class</h2>
+      <h2 class="heading">NFT Mentorship class</h2>
       <h4 class="content">
         This 1-on-1 mentorship class will transform you from a beginner to a pro
         NFT Trader in 30 days.
       </h4>
     </div>
     </div>
-    <div>
+    <div style="margin-top:100px">
       <h1 class="heading">MEMBERSHIP</h1>
       <h3 class="content">There are two levels of membership in the NFT Wzrd Club and benefits you get varies depending on the membership you subscribe too.</h3>
        
