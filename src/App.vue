@@ -35,7 +35,7 @@
     </nav> -->
     <div>
       <img src="./assets/lol(3).jpeg" alt="" width="100%" v-if="w>=450">
-      <img src="./assets/lol3.jpeg" alt="" width="100%" v-if="w<450">
+      <img src="./assets/lol4.jpeg" alt="" width="100%" v-if="w<450">
 
       <div class="modal">
         <h2 class="heading1">
