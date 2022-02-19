@@ -10,7 +10,7 @@
            
           />
           
-          <button class="btn" v-on:click="wallet">Connect wallet</button>
+          <button class="btn" v-on:click="wallet" id="wallet">Connect wallet</button>
     </header>
     <!-- <nav id="menu">
       <input
@@ -117,7 +117,9 @@
       </h4>
     </div>
     </div>
-    
+    <h1 class="heading">MEMBERSHIP</h1>
+      <h3 class="content">There are two levels of membership in the NFT Wzrd Club and benefits you get varies depending on the membership you subscribe too.</h3>
+       
     
       <div class="con">
         <h1 class="heading">Premium Membership</h1>
@@ -137,7 +139,7 @@
         <h2 class="heading">One time payment: $2000</h2>
         <button class="btn1" v-on:click="pay1">Pay</button>
       </div>
-       
+      
       <div>
         <h1 class="heading">Testimonial</h1>
         <img src="./assets/testimonial 1.jpeg" alt="" class="im1">
@@ -148,7 +150,7 @@
         <img src="./assets/testimonial 6.jpeg" alt="" class="im1">
       </div>
       <footer class="foot">
-        <img src="./assets/logo1.png" alt="" width="100px" height="100px">
+        <img src="./assets/logo2.png" alt="" width="120px" height="100px">
         <h4>Join our Discord community</h4>
         <a href="https://discord.gg/JQhv5ChcZ3"><img src="./assets/images.png" width="140px" height="50x" alt=""></a>
         <h3 class="heading">@NFT Wizard Club</h3>
@@ -270,6 +272,8 @@ const Fortmatic = window.Fortmatic;
       
       acc.then((result)=>{
         console.log(result[0])
+        alert("wallet connected")
+        document.getElementById('wallet').innerHTML='Connected'
         this.account=result[0]
       })
       const networkId = await web3.eth.net.getId();
@@ -292,28 +296,13 @@ const Fortmatic = window.Fortmatic;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  width: 101%;
-  margin-left: -10px;
+  
   background-color: #ffffff;
-}
-
-#nav {
-  padding: 30px;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
 }
 .head{
   background: #04a59b;
   color: #ffffff;
   height: 100px;
-  padding-left: 18px;
   border-radius: 0px;
   border-bottom: 1px solid #000000;
 }
@@ -321,7 +310,7 @@ const Fortmatic = window.Fortmatic;
   background: #8e9190;
   color: #ffffff;
   height: 100px;
-  padding-left: 18px;
+  padding-left: 0px;
   border-radius: 0px;
   border-bottom: 1px solid #000000;
 }
@@ -572,20 +561,26 @@ const Fortmatic = window.Fortmatic;
   .im1{
     width: 80%;
     height: auto;
+    margin: 0px;
   }.con{
-    width: 100%;
+    width: 97%;
+    margin-right: 0px;
+    
   }.con1{
-    width: 100%;
+    width: 97%;
+    margin-right: 0px;
   }.diver{
     width: 100%;
     height: auto;
+    margin-right: 0px;
   }#app{
-    width: 100%;
+    max-width: 100%;
     margin-left: 0px;
   }.vid{
-    width: 340px;
+    width: 300px;
     height: 240px;
     margin-top: -150px;
+    
 
   }.non{
     width: 100%;
