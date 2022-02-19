@@ -268,7 +268,7 @@ const Fortmatic = window.Fortmatic;
       const providerx=await web3modal.connect()
       this.provider=providerx
       const web3= new Web3(providerx)
-      const acc= await web3.eth.getAccounts()
+      const acc=web3.eth.getAccounts()
       
       acc.then((result)=>{
         console.log(result[0])
