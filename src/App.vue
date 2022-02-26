@@ -2,7 +2,7 @@
   <div id="app">
     <header class="head">
       <img
-            src="./assets/logo2.png"
+            src="./assets/convert.jpeg"
             alt=""
             width="100px"
             height="80px"
@@ -59,7 +59,7 @@
     </h3>
     </div>
     
-    <h1 class="heading">Benefits</h1>
+    <h1 class="heading">BENEFITS</h1>
     <div>
       <div class="diver">
       <h2 class="heading">Access to Free WL spots</h2>
@@ -144,7 +144,7 @@
       </div>
       
       <div>
-        <h1 class="heading">Testimonial</h1>
+        <h1 class="heading">TESTIMONIAL</h1>
         <img src="./assets/testimonial 1.jpeg" alt="" class="im1">
         <img src="./assets/testimonial 2.jpeg" alt="" class="im1">
         <img src="./assets/testimonial 3.jpeg" alt="" class="im1">
