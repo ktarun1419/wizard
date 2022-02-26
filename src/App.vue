@@ -153,7 +153,7 @@
         <img src="./assets/testimonial 6.jpeg" alt="" class="im1">
       </div>
       <footer class="foot">
-        <img src="./assets/logo2.png" alt="" width="120px" height="100px">
+        <img src="./assets/covert.jpeg" alt="" width="120px" height="100px">
         <h4>Join our Discord community</h4>
         <a href="https://discord.gg/JQhv5ChcZ3"><img src="./assets/images.png" width="140px" height="50x" alt=""></a>
         <h3 class="heading">@NFT Wizard Club</h3>
