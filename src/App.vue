@@ -329,7 +329,7 @@ const Fortmatic = window.Fortmatic;
   list-style: none;
 }
 #menu ul {
-  width: 100%;
+  width: 100.5%;
 }
 #menu li {
   float: left;
