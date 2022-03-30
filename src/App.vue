@@ -184,7 +184,7 @@ export default {
        if (this.account) {
          if (this.id==1) {
            const web3 = new Web3(this.provider);
-           const hex1=web3.utils.toHex((10000/2788) * 1e18);
+           const hex1=web3.utils.toHex((10000/3404) * 1e18);
         const tx = {
   from: this.account, // Required
   to: "0x89D24A7b4cCB1b6fAA2625Fe562bDd9A23260359", // Required (for non contract deployments)
@@ -216,7 +216,7 @@ txHash.then((result)=>{
        if (this.account) {
          if (this.id==1) {
            const web3 = new Web3(this.provider);
-           const hex1=web3.utils.toHex((2000/2788) * 1e18);
+           const hex1=web3.utils.toHex((2000/3404) * 1e18);
         const tx = {
   from: this.account, // Required
   to: "0x8CEED88AC8C8199d7C594a0701d38360AF23355c", // Required (for non contract deployments)
