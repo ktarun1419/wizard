@@ -119,13 +119,13 @@
     </div>
     <div style="margin-top:100px">
       <h1 class="heading">MEMBERSHIP</h1>
-      <h3 class="content">There are two levels of membership in the NFT Wzrd Club and benefits you get varies depending on the membership you subscribe too.</h3>
+      <h3 class="content">All verified NWC members will gain exclusive access to all our services including:</h3>
        
     </div>
     
     
       <div class="con">
-        <h4 class="heading">All verified NWC members will gain exclusive access to all our services including:</h4>
+        >
         <h3 class="heading"> Access to  WL Spots</h3>
         <h4 class="heading">Earn WZRD Token</h4>
         <h4 class="heading">Flipping Signals</h4>
