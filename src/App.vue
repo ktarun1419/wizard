@@ -137,7 +137,7 @@
         <button class="btn1" v-on:click="pay">Pay</button>
       </div>
       <div class="con1">
-        <h1 class="heading"> TRAIL PLAN</h1>
+        <h1 class="heading"> TRIAL PLAN</h1>
        
         <h3 class="heading">Access to Wzrd Launchpool</h3>
         <h3 class="heading">Duration: 30 days</h3>
