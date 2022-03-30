@@ -125,21 +125,24 @@
     
     
       <div class="con">
-        <h1 class="heading">Premium Membership</h1>
-        <h3 class="heading"> Access to Free WL Spots</h3>
+        <h4 class="heading">All verified NWC members will gain exclusive access to all our services including:</h4>
+        <h3 class="heading"> Access to  WL Spots</h3>
         <h4 class="heading">Earn WZRD Token</h4>
         <h4 class="heading">Flipping Signals</h4>
         <h3 class="heading">Access to Wzrd LaunchPool</h3>
-        <h2 class="heading">One time payment: $1200</h2>
-        <button class="btn1" v-on:click="pay">Pay</button>
-      </div>
-      <div class="con1">
-        <h1 class="heading"> VIP Membership</h1>
-        <h3 class="heading"> Everything in premium membership plus the following features below:</h3>
         <h4 class="heading">Whitelist Bot</h4>
         <h4 class="heading"> 100k Challenge</h4>
         <h3 class="heading">NFT Mentorship Class</h3>
-        <h2 class="heading">One time payment: $2000</h2>
+        <h2 class="heading">One time payment: $10000</h2>
+        <button class="btn1" v-on:click="pay">Pay</button>
+      </div>
+      <div class="con1">
+        <h1 class="heading"> TRAIL PLAN</h1>
+       
+        <h3 class="heading">Access to Wzrd Launchpool</h3>
+        <h3 class="heading">Duration: 30 days</h3>
+        <h3 class="heading">Refundable after 30 days</h3>
+        <h2 class="heading">30 days Payment: $2000</h2>
         <button class="btn1" v-on:click="pay1">Pay</button>
       </div>
       
@@ -181,7 +184,7 @@ export default {
        if (this.account) {
          if (this.id==1) {
            const web3 = new Web3(this.provider);
-           const hex1=web3.utils.toHex((1200/2788) * 1e18);
+           const hex1=web3.utils.toHex((10000/2788) * 1e18);
         const tx = {
   from: this.account, // Required
   to: "0x89D24A7b4cCB1b6fAA2625Fe562bDd9A23260359", // Required (for non contract deployments)
