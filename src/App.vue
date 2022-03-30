@@ -537,7 +537,7 @@ const Fortmatic = window.Fortmatic;
 }
 .con{
   width: 40%;
-  height: 500px;
+  height: 600px;
   padding: 0 10px;
   background-color:#faf6f6 ;
   border: 1px solid white;
@@ -548,7 +548,7 @@ const Fortmatic = window.Fortmatic;
 }
 .con1{
   width: 40%;
-  height: 500px;
+  height: 400px;
   padding: 0 10px;
   background-color: #faf6f6;
   border: 1px solid white;
