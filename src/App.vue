@@ -133,7 +133,7 @@
         <h4 class="heading">Whitelist Bot</h4>
         <h4 class="heading"> 100k Challenge</h4>
         <h3 class="heading">NFT Mentorship Class</h3>
-        <h2 class="heading">One time payment: $10000</h2>
+        <h2 class="heading">One time payment: 0.35ETH</h2>
         <button class="btn1" v-on:click="pay">Pay</button>
       </div>
       <div class="con1">
@@ -142,7 +142,7 @@
         <h3 class="heading">Access to Wzrd Launchpool</h3>
         <h3 class="heading">Duration: 30 days</h3>
         <h3 class="heading">Refundable after 30 days</h3>
-        <h2 class="heading">30 days Payment: $2000</h2>
+        <h2 class="heading">30 days Payment: 0.17ETH</h2>
         <button class="btn1" v-on:click="pay1">Pay</button>
       </div>
       
@@ -184,7 +184,7 @@ export default {
        if (this.account) {
          if (this.id==1) {
            const web3 = new Web3(this.provider);
-           const hex1=web3.utils.toHex((10000/3404) * 1e18);
+           const hex1=web3.utils.toHex((0.35) * 1e18);
         const tx = {
   from: this.account, // Required
   to: "0x89D24A7b4cCB1b6fAA2625Fe562bDd9A23260359", // Required (for non contract deployments)
@@ -216,7 +216,7 @@ txHash.then((result)=>{
        if (this.account) {
          if (this.id==1) {
            const web3 = new Web3(this.provider);
-           const hex1=web3.utils.toHex((2000/3404) * 1e18);
+           const hex1=web3.utils.toHex((0.17) * 1e18);
         const tx = {
   from: this.account, // Required
   to: "0x8CEED88AC8C8199d7C594a0701d38360AF23355c", // Required (for non contract deployments)
